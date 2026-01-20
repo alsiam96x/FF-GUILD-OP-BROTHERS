@@ -79,7 +79,7 @@ function App() {
 
 
 </div>
-      </div>
+      
 {/* Footer */}
 <footer className="bg-gray-900 border-t border-gray-700 mt-16">
   <div className="max-w-6xl mx-auto px-4 py-10 md:py-16 text-gray-300">
