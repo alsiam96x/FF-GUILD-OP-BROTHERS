@@ -77,35 +77,7 @@ function App() {
   </span>
 </div>
 
-{/* Image Gallery */}
-<div className="max-w-4xl mx-auto mt-16 px-4">
-  <h2 className="text-center text-3xl md:text-4xl font-extrabold mb-3 text-white">
-    Guild Gallery
-  </h2>
-  <p className="text-center text-gray-400 mb-8 text-sm md:text-base">
-     Some items...
-  </p>
 
-  <div className="grid gap-2 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3">
-    {[
-      "/gallery/1.png",
-      "/gallery/2.png",
-      "/gallery/3.png",
-    ].map((img, index) => (
-      <div
-        key={index}
-        className="relative group rounded-xl overflow-hidden border border-gray-700 bg-gray-800 shadow-xl"
-      >
-        {/* Image */}
-        <img
-          src={img}
-          alt={`Gallery ${index + 1}`}
-          className="w-full object-cover transition duration-500 group-hover:scale-110"
-        />
-
-      </div>
-    ))}
-  </div>
 </div>
       </div>
 {/* Footer */}
